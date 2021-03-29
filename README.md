@@ -82,6 +82,8 @@ Here is what you can do using this python API:
 
 ### Prerequisites
 
+(You only need the `requests` python package)
+
 1. If you do NOT want to do sensible operations such as creating a virtual credit card, there is no prerequisites
 2. Else, you need to get some of your Android (I don't know how to do this on an iOS device...) device information, such as the serialNumber (unique for each app), the device vendor, and the device model.
    1. To do so, you can use `adb` (check on the Internet what adb is)
@@ -126,7 +128,7 @@ seedDevice = "xfu3rbzqb47njp5y"
 # mCode is your 6-digits password :
 mCode = "012345"
 
-email = "youreamil@example.com"
+email = "youremail@example.com"
 password = "yourAumaxPassword"
 
 api = Aumax(email, password)

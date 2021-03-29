@@ -13,7 +13,7 @@ seedDevice = "xfu3rbzqb47njp5y"
 # mCode is your 6-digits password :
 mCode = "012345"
 
-email = "youreamil@example.com"
+email = "youremail@example.com"
 password = "yourAumaxPassword"
 
 api = Aumax(email, password)
